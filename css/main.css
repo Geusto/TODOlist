@@ -1,27 +1,35 @@
 body{
 }
+
 nav{
-text-align: center;
-font-size: 3em;
+    text-align: center;
+    font-size: 3em;
 }
 .btn-primary {
-	margin-top: 10px;
+    margin-top: 10px;
 }
-/*.item{
-font-size: 2em;
-text-align: center;    
-}*/
 h2{
-text-align: center;
+    text-align: center;
 }
-
+.completo{
+    text-decoration: line-through;
+}
 .tareas {
     background-color: aliceblue;
 	border-radius: 10px;
 }
-
+#delete{
+margin-left: 10px;
+}
 #pendiente {
     height: 500px;
 	border-radius: 10px;
     background-image: url("papiro.jpg");
+}
+#cont{
+    padding-top: 10px;
+    border-style: solid;
+    border-color: cadetblue;
+    font-size: 1.5em;
+    border-radius: 10px;
 }
